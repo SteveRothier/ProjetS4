@@ -1,0 +1,236 @@
+{
+    "etudiant" : [
+        {
+            "idEtudiant": 1,
+            "prenom" : "Gabriel",
+            "nom": "Fourrier",
+            "login": "four0101",
+            "password": "Azerty01",
+            "civilite": "oui",
+            "email": "gabriel.fourrier@etudiant.univ-reims.fr",
+            "numTel": "06070809",
+            "photo": ""
+        }        
+    ],
+
+    "annee" : [
+        {
+            "idAnnee": 1,
+            "dateDebut": "01/09/2021",
+            "dateFin": "01/06/2022" 
+        },
+        {
+            "idAnnee": 2,
+            "dateDebut": "01/09/2022",
+            "dateFin": "01/06/2023" 
+        },
+        {
+            "idAnnee": 3,
+            "dateDebut": "01/09/2023",
+            "dateFin": "01/06/2024" 
+        }
+    ],
+
+    "semestre" : [
+        {
+            "idSemestre": 1,
+            "idAnnee": 1,
+            "libSemetre": "Semestre 1",
+            "dateDebut": "01/09/2021",
+            "dateFin": "01/02/2022"
+        },
+        {
+            "idSemestre": 2,
+            "idAnnee": 1,
+            "libSemetre": "Semestre 2",
+            "dateDebut": "01/02/2022",
+            "dateFin": "01/06/2022"
+        },
+        {
+            "idSemestre": 3,
+            "idAnnee": 2,
+            "libSemetre": "Semestre 3",
+            "dateDebut": "01/09/2022",
+            "dateFin": "01/02/2023"
+        },
+        {
+            "idSemestre": 4,
+            "idAnnee": 2,
+            "libSemetre": "Semestre 4",
+            "dateDebut": "01/02/2023",
+            "dateFin": "01/06/2023"
+        },
+        {
+            "idSemestre": 5,
+            "idAnnee": 3,
+            "libSemetre": "Semestre 5",
+            "dateDebut": "01/09/2023",
+            "dateFin": "01/02/2024"
+        },
+        {
+            "idSemestre": 6,
+            "idAnnee": 3,
+            "libSemetre": "Semestre 6",
+            "dateDebut": "01/02/2024",
+            "dateFin": "01/06/2024"
+        }
+    ],
+
+    "ue": [
+        {
+            "idUE": 1,
+            "libUE": "Réaliser un développement d'applications",
+            "moyenneUE": "",
+            "noteUE": "",
+            "coeffRessource": [
+                {
+                    "idRessource": 1,
+                    "valeur": 3
+                },
+                {
+                    "idRessource": 2,
+                    "valeur": 2
+                },
+                {
+                    "idRessource": 10,
+                    "valeur": 1
+                },
+                {
+                    "idRessource": 13,
+                    "valeur": 2
+                }
+            ]
+        },
+        {
+            "idUE": 2,
+            "libUE": "Optimiser des applications informatiques",
+            "moyenneUE": "",
+            "noteUE": ""
+        },
+        {
+            "idUE": 3,
+            "libUE": "Administrer des systèmes informatiques communicants complexes",
+            "moyenneUE": "",
+            "noteUE": ""
+        },
+        {
+            "idUE": 4,
+            "libUE": "Gérer des données de l'information",
+            "moyenneUE": "",
+            "noteUE": ""
+        },
+        {
+            "idUE": 5,
+            "libUE": "Conduire un projet",
+            "moyenneUE": "",
+            "noteUE": ""
+        },
+        {
+            "idUE": 6,
+            "libUE": "Travailler dans une équipe informatique",
+            "moyenneUE": "",
+            "noteUE": ""
+        }
+    ],
+
+    "ressource": [
+        {
+            "idRessource": 1,
+            "libRessource": "Initiation au développement",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 2,
+            "libRessource": "Développement d’interfaces web",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 3,
+            "libRessource": "Introduction à l’architecture des ordinateurs",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 4,
+            "libRessource": "Introduction aux systèmes d’exploitation et à leur fonctionnement",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 5,
+            "libRessource": "Introduction aux bases de données et SQL",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 6,
+            "libRessource": "Mathématiques discrètes",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 7,
+            "libRessource": "Outils mathématiques fondamentaux",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 8,
+            "libRessource": "Gestion de projet et des organisations",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 9,
+            "libRessource": "Économie durable et numérique",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 10,
+            "libRessource": "Anglais technique",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 11,
+            "libRessource": "Bases de la communication",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 12,
+            "libRessource": "Projet professionnel et personnel",
+            "typeRessource": "ressource"
+        },
+        {
+            "idRessource": 13,
+            "libRessource": "Implémentation d’un besoin client",
+            "typeRessource": "sae"
+        },
+        {
+            "idRessource": 14,
+            "libRessource": "Comparaison d’approches algorithmiques",
+            "typeRessource": "sae"
+        },
+        {
+            "idRessource": 15,
+            "libRessource": "Installation d’un poste pour le développement",
+            "typeRessource": "sae"
+        },
+        {
+            "idRessource": 16,
+            "libRessource": "Création d’une base de données",
+            "typeRessource": "sae"
+        },
+        {
+            "idRessource": 17,
+            "libRessource": "Recueil de besoins",
+            "typeRessource": "sae"
+        },
+        {
+            "idRessource": 18,
+            "libRessource": "Découverte de l’environnement économique et écologique",
+            "typeRessource": "sae"
+        }   
+    ],
+
+    "mcc": [
+        {
+            "idMCC": 1,
+            "libMCC": "",
+            "coeffMCC": 1
+        }
+    ]
+}
