@@ -1,5 +1,5 @@
 import React from 'react';
-import EtudiantItem from './Etudiant';
+import EtudiantItem from './EtudiantItem';
 
 export function FetchEtudiant({etudiant}) {
     return (
