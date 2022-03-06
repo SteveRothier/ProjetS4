@@ -3,14 +3,31 @@
         {
             "idEtudiant": 1,
             "prenom" : "Gabriel",
-            "nom": "Fourrier",
+            "nom": "Fourier",
             "login": "four0101",
             "password": "Azerty01",
+            "place": "H02",
             "civilite": "oui",
-            "email": "gabriel.fourrier@etudiant.univ-reims.fr",
+            "dateDeNaissance": "16/05/2002",
+            "email": "gabriel.fourier@etudiant.univ-reims.fr",
             "numTel": "06070809",
-            "photo": ""
-        }        
+            "adresse": "21b-25 Avenue Henri Farman B28",
+            "photo": "https://www.interlinecenter.com/wp-content/uploads/2016/10/dummy-user-img.png"
+        },
+        {
+            "idEtudiant": 2,
+            "prenom" : "A",
+            "nom": "B",
+            "login": "four0101",
+            "password": "Azerty01",
+            "place": "H02",
+            "civilite": "oui",
+            "dateDeNaissance": "16/05/2002",
+            "email": "gabriel.fourier@etudiant.univ-reims.fr",
+            "numTel": "06070809",
+            "adresse": "21b-25 Avenue Henri Farman B28",
+            "photo": "https://www.interlinecenter.com/wp-content/uploads/2016/10/dummy-user-img.png"
+        }          
     ],
 
     "annee" : [
@@ -35,101 +52,232 @@
         {
             "idSemestre": 1,
             "idAnnee": 1,
-            "libSemetre": "Semestre 1",
+            "libSemestre": "Semestre 1",
             "dateDebut": "01/09/2021",
             "dateFin": "01/02/2022"
         },
         {
             "idSemestre": 2,
             "idAnnee": 1,
-            "libSemetre": "Semestre 2",
+            "libSemestre": "Semestre 2",
             "dateDebut": "01/02/2022",
             "dateFin": "01/06/2022"
         },
         {
             "idSemestre": 3,
             "idAnnee": 2,
-            "libSemetre": "Semestre 3",
+            "libSemestre": "Semestre 3",
             "dateDebut": "01/09/2022",
             "dateFin": "01/02/2023"
         },
         {
             "idSemestre": 4,
             "idAnnee": 2,
-            "libSemetre": "Semestre 4",
+            "libSemestre": "Semestre 4",
             "dateDebut": "01/02/2023",
             "dateFin": "01/06/2023"
         },
         {
             "idSemestre": 5,
             "idAnnee": 3,
-            "libSemetre": "Semestre 5",
+            "libSemestre": "Semestre 5",
             "dateDebut": "01/09/2023",
             "dateFin": "01/02/2024"
         },
         {
             "idSemestre": 6,
             "idAnnee": 3,
-            "libSemetre": "Semestre 6",
+            "libSemestre": "Semestre 6",
             "dateDebut": "01/02/2024",
             "dateFin": "01/06/2024"
         }
     ],
+    
+   "comptabiliser":[
+       
+       {
+           "idUE": 1,
+           "idRessource": 1,
+           "coeffRessource": 42
+       },
+       {
+           "idUE": 1,
+           "idRessource": 2,
+           "coeffRessource": 12
+       },
+       {
+           "idUE": 1,
+           "idRessource": 10,
+           "coeffRessource": 6
+       },
+       {
+           "idUE": 1,
+           "idRessource": 13,
+           "coeffRessource": 40
+       },
+       {
+           "idUE": 2,
+           "idRessource": 1,
+           "coeffRessource": 24
+       },
+       {
+           "idUE": 2,
+           "idRessource": 3,
+           "coeffRessource": 3
+       },
+       {
+           "idUE": 2,
+           "idRessource": 4,
+           "coeffRessource": 3
+       },
+       {
+           "idUE": 2,
+           "idRessource": 6,
+           "coeffRessource": 15
+       },
+       {
+           "idUE": 2,
+           "idRessource": 7,
+           "coeffRessource": 15
+       },
+       {
+           "idUE": 2,
+           "idRessource": 14,
+           "coeffRessource": 40
+       },
+       {
+           "idUE": 3,
+           "idRessource": 3,
+           "coeffRessource": 21
+       },
+       {
+           "idUE": 3,
+           "idRessource": 4,
+           "coeffRessource": 21
+       },
+       {
+           "idUE": 3,
+           "idRessource": 10,
+           "coeffRessource": 12
+       },
+       {
+           "idUE": 3,
+           "idRessource": 11,
+           "coeffRessource": 6
+       },
+       {
+           "idUE": 3,
+           "idRessource": 15,
+           "coeffRessource": 40
+       },
+       {
+           "idUE": 4,
+           "idRessource": 5,
+           "coeffRessource": 36
+       },
+       {
+           "idUE": 4,
+           "idRessource": 6,
+           "coeffRessource": 18
+       },
+       {
+           "idUE": 4,
+           "idRessource": 9,
+           "coeffRessource": 6
+       },
+       {
+           "idUE": 4,
+           "idRessource": 16,
+           "coeffRessource": 40
+       },
+       {
+           "idUE": 5,
+           "idRessource": 2,
+           "coeffRessource": 18
+       },
+       {
+           "idUE": 5,
+           "idRessource": 8,
+           "coeffRessource": 27
+       },
+       {
+           "idUE": 5,
+           "idRessource": 11,
+           "coeffRessource": 15
+       },
+       {
+           "idUE": 5,
+           "idRessource": 17,
+           "coeffRessource": 40
+       },
+       {
+           "idUE": 6,
+           "idRessource": 2,
+           "coeffRessource": 5
+       },
+       {
+           "idUE": 6,
+           "idRessource": 8,
+           "coeffRessource": 11
+       },
+       {
+           "idUE": 6,
+           "idRessource": 9,
+           "coeffRessource": 11
+       },
+       {
+           "idUE": 6,
+           "idRessource": 10,
+           "coeffRessource": 11
+       },
+       {
+           "idUE": 6,
+           "idRessource": 11,
+           "coeffRessource": 11
+       },
+       {
+           "idUE": 6,
+           "idRessource": 12,
+           "coeffRessource": 11
+       },
+       {
+           "idUE": 6,
+           "idRessource": 18,
+           "coeffRessource": 40
+       }
+       
+   ],
 
     "ue": [
         {
             "idUE": 1,
-            "libUE": "Réaliser un développement d'applications",
-            "moyenneUE": "",
-            "noteUE": "",
-            "coeffRessource": [
-                {
-                    "idRessource": 1,
-                    "valeur": 3
-                },
-                {
-                    "idRessource": 2,
-                    "valeur": 2
-                },
-                {
-                    "idRessource": 10,
-                    "valeur": 1
-                },
-                {
-                    "idRessource": 13,
-                    "valeur": 2
-                }
-            ]
+            "idSemestre":1,
+            "libUE": "Réaliser un développement d'applications"
         },
         {
             "idUE": 2,
-            "libUE": "Optimiser des applications informatiques",
-            "moyenneUE": "",
-            "noteUE": ""
+            "idSemestre":1,
+            "libUE": "Optimiser des applications informatiques"
         },
         {
             "idUE": 3,
-            "libUE": "Administrer des systèmes informatiques communicants complexes",
-            "moyenneUE": "",
-            "noteUE": ""
+            "idSemestre":1,
+            "libUE": "Administrer des systèmes informatiques communicants complexes"
         },
         {
             "idUE": 4,
-            "libUE": "Gérer des données de l'information",
-            "moyenneUE": "",
-            "noteUE": ""
+            "idSemestre":1,
+            "libUE": "Gérer des données de l'information"
         },
         {
             "idUE": 5,
-            "libUE": "Conduire un projet",
-            "moyenneUE": "",
-            "noteUE": ""
+            "idSemestre":1,
+            "libUE": "Conduire un projet"
         },
         {
             "idUE": 6,
-            "libUE": "Travailler dans une équipe informatique",
-            "moyenneUE": "",
-            "noteUE": ""
+            "idSemestre":1,
+            "libUE": "Travailler dans une équipe informatique"
         }
     ],
 
@@ -229,8 +377,214 @@
     "mcc": [
         {
             "idMCC": 1,
-            "libMCC": "",
+            "idRessource": 1,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 3
+        },
+        {
+            "idMCC": 2,
+            "idRessource": 2,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 3,
+            "idRessource": 3,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 4,
+            "idRessource": 4,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 5,
+            "idRessource": 5,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 6,
+            "idRessource": 6,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 7,
+            "idRessource": 6,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
             "coeffMCC": 1
+        },
+        {
+            "idMCC": 8,
+            "idRessource": 7,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 9,
+            "idRessource": 7,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 10,
+            "idRessource": 8,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 11,
+            "idRessource": 8,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 12,
+            "idRessource": 9,
+            "idSemestre": 1,
+            "typeMCC": "TPS",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 13,
+            "idRessource": 10,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 14,
+            "idRessource": 10,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 15,
+            "idRessource": 11,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 16,
+            "idRessource": 12,
+            "idSemestre": 1,
+            "typeMCC": "TD/TP",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 17,
+            "idRessource": 13,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 2
+        },
+        {
+            "idMCC": 18,
+            "idRessource": 14,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 19,
+            "idRessource": 14,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 20,
+            "idRessource": 15,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 21,
+            "idRessource": 15,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 22,
+            "idRessource": 15,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 23,
+            "idRessource": 16,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 24,
+            "idRessource": 16,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 25,
+            "idRessource": 17,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 26,
+            "idRessource": 17,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 27,
+            "idRessource": 18,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        },
+        {
+            "idMCC": 28,
+            "idRessource": 18,
+            "idSemestre": 1,
+            "typeMCC": "IUT",
+            "coeffMCC": 1
+        }    
+    ],
+
+    "obtenir": [
+        {
+            "idEtudiant": 1,
+            "idMCC": 1,
+            "noteExam": 12,
+            "dateExam": "09/09/2021"
+        },
+        {
+            "idEtudiant": 1,
+            "idMCC": 14,
+            "noteExam": 15,
+            "dateExam": "23/09/2021"
         }
     ]
 }
