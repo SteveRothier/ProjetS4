@@ -52,33 +52,33 @@
         {
             "id": 1,
             "idAnnee": 1,
-            "libSemestre": "Semestre 1",
+            "libSemestre": "Semestre 1"
         },
         {
             "id": 2,
             "idAnnee": 1,
-            "libSemestre": "Semestre 2",
+            "libSemestre": "Semestre 2"
 
         },
         {
             "id": 3,
             "idAnnee": 2,
-            "libSemestre": "Semestre 3",
+            "libSemestre": "Semestre 3"
         },
         {
             "id": 4,
             "idAnnee": 2,
-            "libSemestre": "Semestre 4",
+            "libSemestre": "Semestre 4"
         },
         {
             "id": 5,
             "idAnnee": 3,
-            "libSemestre": "Semestre 5",
+            "libSemestre": "Semestre 5"
         },
         {
             "id": 6,
             "idAnnee": 3,
-            "libSemestre": "Semestre 6",
+            "libSemestre": "Semestre 6"
         }
     ],
     
@@ -86,7 +86,7 @@
         {
             "idEtudiant": 1,
             "idSemestre": 1,
-            "dateSemestre": "01/09/2022",
+            "dateSemestre": "01/09/2022"
         }
     ],
     
