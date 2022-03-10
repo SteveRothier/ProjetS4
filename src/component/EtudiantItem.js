@@ -18,22 +18,21 @@ export function EtudiantItem({data}) {
     console.log(data);
     return (
         <>
-            <div className='card'>
-                <img src={photo} alt="jaquette"/> 
-                <h1>{prenom}</h1>
-                <h1>{nom}</h1>
-                <h1>place = {place}</h1>    
-            </div>
-            <div className='private'>
-                <h1>{login}</h1>
-                <h1>{password}</h1>
-            </div>
-            <div className='informations'>
-                <h1>{dateDeNaissance}</h1>
-                <h1>{civilite}</h1>
-                <h1>{email}</h1>
-                <h1>{numTel}</h1>
-                <h1>{adresse}</h1>
+            <div className='profil'>
+                <div className='card'>
+                    <img src={photo} alt="jaquette"/> 
+                    <h1>{prenom} {nom}</h1>
+                    <h1>{place}</h1>    
+                    <h1>{login}</h1>
+                    <h1>{password}</h1>
+                </div>
+                <div className='informations'>
+                    <h1>{dateDeNaissance}</h1>
+                    <h1>{civilite}</h1>
+                    <h1>{email}</h1>
+                    <h1>{numTel}</h1>
+                    <h1>{adresse}</h1>
+                </div>
             </div>
         </>
     );

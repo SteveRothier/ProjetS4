@@ -1,0 +1,14 @@
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px;
+    flex-direction: column;
+    width: 13%;
+    margin-left: 85%;
+    background-color: white;
+    font-size: small;
+}
+.card img {
+    width: 200px;
+}
