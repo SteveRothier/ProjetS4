@@ -6,7 +6,7 @@ import UeItem from './UeItem.js'
 export function UeList({data}) {
     console.log(data)
     return(
-        <div>
+        <div className='list'>
             {data.map( element => 
                 <UeItem data={element}/>
             )}

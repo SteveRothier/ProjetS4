@@ -24,6 +24,7 @@ export class FetchUe extends React.Component {
         console.log(ue)
         return(
             <UeList key={ue.id} data={ue}/> 
+
         )
     }
 }
