@@ -5,8 +5,13 @@ export function UeItem({data}) {
     console.log(data);
     return(
         <>
-            <p>UE{id}</p>
-            <p>{libUE}</p>        
+        <div className='box'>
+        <div className='item'>
+                <p>UE{id}</p>
+                <p>{libUE}</p>                 
+            </div>
+        </div>
+            
         </>
     );
 }

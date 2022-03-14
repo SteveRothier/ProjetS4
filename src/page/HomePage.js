@@ -3,12 +3,11 @@ import FetchEtudiant from "../component/FetchEtudiant";
 function Home() {
     return (
       <>
-        <div className="infoCalend">
-          <div className="calendrier">
+        <div className="calendrier">
             <h2>
               Calendrier
             </h2>
-                        <table id="calendrier_absences"><tbody><tr>
+                <table id="calendrier_absences"><tbody><tr>
                 <td><div className="calendrier"><table><tbody><tr><td></td><th colSpan="8">janvier 2022
             </th></tr><tr><td></td><th>L</th><th>M</th><th>M</th><th>J</th><th>V</th><th>S</th><th>D</th></tr><tr><td className="num_semaine">52</td><td></td><td></td><td></td><td></td><td></td><td className="jour">1</td><td className="jour">2
             </td></tr><tr><td className="num_semaine">1</td><td className="jour">3</td><td className="jour">4</td><td className="jour">5</td><td className="jour">6</td><td className="jour">7</td><td className="jour">8</td><td className="jour">9
@@ -61,14 +60,15 @@ function Home() {
             </td></tr><tr><td className="num_semaine">34</td><td className="jour">22</td><td className="jour">23</td><td className="jour">24</td><td className="jour">25</td><td className="jour">26</td><td className="jour">27</td><td className="jour">28
             </td></tr><tr><td className="num_semaine">35</td><td className="jour">29</td><td className="jour">30</td><td className="jour">31</td></tr></tbody></table></div>
             </td></tr></tbody></table>
-          </div>
-          <div className="profilEtud">
+        </div>
+        <div className="homePage">
+          <div className="information">
             <h2>
               Informations
             </h2>
+            <FetchEtudiant />
           </div>
-            <FetchEtudiant /> 
-      </div>
+        </div>
       </>
     );
   }

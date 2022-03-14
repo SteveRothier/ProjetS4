@@ -1,7 +1,7 @@
 .menu {
     display: flex;
-    margin: 10px;
-    height: 124px;
+    margin: 0.5rem;
+    height: 6rem;
     border-radius: 25px;
     justify-content: space-around;
     align-items: center;

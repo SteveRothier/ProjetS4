@@ -3,53 +3,23 @@ html {
     background-color: #27A6F4;
 }
 
-.App {
-    text-align: center;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.App-header {
-    background-color: #27A6F4;
-    min-height: 100vh;
+div h2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 #calendrier_absences {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: transparent;
-    margin-left: 50px;
+    margin: 2rem;
 }
 
 #calendrier_absences td table {
     border: solid 1px black;
-    margin: 0;
+    margin: 1rem;
 }
 
 .calendrier {
@@ -70,12 +40,31 @@ html {
     border-radius: 25px;
 }
 
-table {
-    background-color: #C4C4C4;
-    margin: auto;
-    height: 150px;
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem;
     font-family: 'Questrial', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 30.9px;
+}
+
+.item p {
+    margin: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information h2 {
+    margin-left: 13%;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    background-color: #346DFF;
+    width: 160px;
+    border-radius: 25px;
 }
