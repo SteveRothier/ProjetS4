@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import UeItem from './UeItem.js'
 
 
@@ -9,7 +8,7 @@ export function UeList({data}) {
     return(
         <div>
             {data.map( element => 
-            <UeItem data={element}/>
+                <UeItem data={element}/>
             )}
         </div>   
     )

@@ -23,7 +23,7 @@ export class FetchUe extends React.Component {
         const {ue} = this.state;
         console.log(ue)
         return(
-            <UeList data={ue}/> 
+            <UeList key={ue.id} data={ue}/> 
         )
     }
 }

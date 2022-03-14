@@ -5,8 +5,8 @@ export function UeItem({data,...props}) {
     console.log(data);
     return(
         <>
-        <p>UE{id}</p>
-        <p>{libUE}</p>        
+            <p>UE{id}</p>
+            <p>{libUE}</p>        
         </>
     );
 }
