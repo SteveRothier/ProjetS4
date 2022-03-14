@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function UeItem({data,...props}) {
+export function UeItem({data}) {
     const {id,libUE} = data;
     console.log(data);
     return(

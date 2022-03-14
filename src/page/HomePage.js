@@ -66,19 +66,8 @@ function Home() {
             <h2>
               Informations
             </h2>
-            <FetchEtudiant etudiant={
-              [
-                {
-                  "idEtudiant": 1,
-                  "prenom": "Gabriel",
-                  "nom": "Fourier",
-                  "login": "four0101",
-                  "place": "H02",
-                  "photo": "https://www.interlinecenter.com/wp-content/uploads/2016/10/dummy-user-img.png"
-                }
-              ]
-            } /> 
-        </div>
+          </div>
+            <FetchEtudiant /> 
       </div>
       </>
     );

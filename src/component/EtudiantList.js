@@ -1,18 +1,18 @@
 import React from 'react';
-import UeItem from './UeItem.js'
+import EtudiantItem from './EtudiantItem';
 
 
 
-export function UeList({data}) {
+export function EtudiantList({data}) {
     console.log(data)
     return(
         <div>
             {data.map(element => 
-                <UeItem data={element}/>
+                <EtudiantItem data={element}/>
             )}
         </div>   
     )
         
 }
 
-export default UeList;
+export default EtudiantList;
