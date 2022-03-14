@@ -72,14 +72,28 @@ html {
 .profilEtud h2 {
     padding: 7px;
     background-color: #346DFF;
-    margin-left: 88.5%;
+    margin-left: 87.5%;
     width: 160px;
     border-radius: 25px;
+}
+
+#calendrier_absences {
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+#calendrier_absences td table {
+    border: solid 1px black;
+    margin: 0;
 }
 
 .calendrier {
     display: flex;
     flex-direction: column;
+}
+
+.jour {
+    border: solid 1px black;
 }
 
 .calendrier h2 {
@@ -93,13 +107,10 @@ html {
 
 table {
     background-color: #C4C4C4;
-    border: 2px solid #000000;
-    border-radius: 18px;
     margin: auto;
-    width: 1275px;
-    height: 276px;
+    height: 150px;
     font-family: 'Questrial', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 200;
+    font-size: 15px;
     line-height: 30.9px;
 }
