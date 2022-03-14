@@ -1,7 +1,7 @@
 import React from 'react';
 
 export function RessourceItem({data, type, index, ...props}) {
-  const {libRessource} = data;
+  const {libelle} = data;
   const index1=index+1;
   const semestre = "1";
   let number = null;
@@ -19,7 +19,7 @@ export function RessourceItem({data, type, index, ...props}) {
     <>
     <div className="item">
       <p>{type}{number}</p>
-      <p>{libRessource}</p>
+      <p>{libelle}</p>
     </div>
     </>
   )       

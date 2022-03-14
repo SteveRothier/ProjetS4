@@ -249,124 +249,124 @@
         {
             "id": 1,
             "idSemestre":1,
-            "libUE": "Réaliser un développement d'applications"
+            "libelle": "Réaliser un développement d'applications"
         },
         {
             "id": 2,
             "idSemestre":1,
-            "libUE": "Optimiser des applications informatiques"
+            "libelle": "Optimiser des applications informatiques"
         },
         {
             "id": 3,
             "idSemestre":1,
-            "libUE": "Administrer des systèmes informatiques communicants complexes"
+            "libelle":"Administrer des systèmes informatiques communicants complexes"
         },
         {
             "id": 4,
             "idSemestre":1,
-            "libUE": "Gérer des données de l'information"
+            "libelle": "Gérer des données de l'information"
         },
         {
             "id": 5,
             "idSemestre":1,
-            "libUE": "Conduire un projet"
+            "libelle": "Conduire un projet"
         },
         {
             "id": 6,
             "idSemestre":1,
-            "libUE": "Travailler dans une équipe informatique"
+            "libelle": "Travailler dans une équipe informatique"
         }
     ],
 
     "ressource": [
         {
             "id": 1,
-            "libRessource": "Initiation au développement",
+            "libelle": "Initiation au développement",
             "typeRessource": "ressource"
         },
         {
             "id": 2,
-            "libRessource": "Développement d’interfaces web",
+            "libelle": "Développement d’interfaces web",
             "typeRessource": "ressource"
         },
         {
             "id": 3,
-            "libRessource": "Introduction à l’architecture des ordinateurs",
+            "libelle": "Introduction à l’architecture des ordinateurs",
             "typeRessource": "ressource"
         },
         {
             "id": 4,
-            "libRessource": "Introduction aux systèmes d’exploitation et à leur fonctionnement",
+            "libelle": "Introduction aux systèmes d’exploitation et à leur fonctionnement",
             "typeRessource": "ressource"
         },
         {
             "id": 5,
-            "libRessource": "Introduction aux bases de données et SQL",
+            "libelle": "Introduction aux bases de données et SQL",
             "typeRessource": "ressource"
         },
         {
             "id": 6,
-            "libRessource": "Mathématiques discrètes",
+            "libelle": "Mathématiques discrètes",
             "typeRessource": "ressource"
         },
         {
             "id": 7,
-            "libRessource": "Outils mathématiques fondamentaux",
+            "libelle": "Outils mathématiques fondamentaux",
             "typeRessource": "ressource"
         },
         {
             "id": 8,
-            "libRessource": "Gestion de projet et des organisations",
+            "libelle": "Gestion de projet et des organisations",
             "typeRessource": "ressource"
         },
         {
             "id": 9,
-            "libRessource": "Économie durable et numérique",
+            "libelle": "Économie durable et numérique",
             "typeRessource": "ressource"
         },
         {
             "id": 10,
-            "libRessource": "Anglais technique",
+            "libelle":"Anglais technique",
             "typeRessource": "ressource"
         },
         {
             "id": 11,
-            "libRessource": "Bases de la communication",
+            "libelle":"Bases de la communication",
             "typeRessource": "ressource"
         },
         {
             "id": 12,
-            "libRessource": "Projet professionnel et personnel",
+            "libelle": "Projet professionnel et personnel",
             "typeRessource": "ressource"
         },
         {
             "id": 13,
-            "libRessource": "Implémentation d’un besoin client",
+            "libelle": "Implémentation d’un besoin client",
             "typeRessource": "sae"
         },
         {
             "id": 14,
-            "libRessource": "Comparaison d’approches algorithmiques",
+            "libelle": "Comparaison d’approches algorithmiques",
             "typeRessource": "sae"
         },
         {
             "id": 15,
-            "libRessource": "Installation d’un poste pour le développement",
+            "libelle":"Installation d’un poste pour le développement",
             "typeRessource": "sae"
         },
         {
             "id": 16,
-            "libRessource": "Création d’une base de données",
+            "libelle": "Création d’une base de données",
             "typeRessource": "sae"
         },
         {
             "id": 17,
-            "libRessource": "Recueil de besoins",
+            "libelle": "Recueil de besoins",
             "typeRessource": "sae"
         },
         {
             "id": 18,
-            "libRessource": "Découverte de l’environnement économique et écologique",
+            "libelle": "Découverte de l’environnement économique et écologique",
             "typeRessource": "sae"
         }   
     ],

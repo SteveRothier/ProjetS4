@@ -12,7 +12,8 @@ export class FetchRessource extends React.Component {
             ressourceType: 
             {
                 "ressource": "MR",
-                "sae": "MS"
+                "sae": "MS",
+                "ue": "UE"
             },
         };
     }

@@ -5,7 +5,7 @@ export function RessourceList({data, type, ...props}) {
     console.log(data); 
   return(
     
-    <div className='ressources'>
+    <div className='list'>
     {data.map( (element, index)=>
         <RessourceItem key={index} data={element} type={type} index={index}/>)}
     </div>
