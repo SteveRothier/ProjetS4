@@ -1,5 +1,5 @@
 import React from 'react';
-import UeList from './UeList';
+import RessourceList from './RessourceList';
 
 const url = 'http://localhost:8000/ue';
 
@@ -7,7 +7,14 @@ export class FetchUe extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            nom: "ue",
             ue: [],
+            ressourceType: 
+            {
+                "ressource": "MR",
+                "sae": "MS",
+                "ue": "UE"
+            },
         };
     }
 
@@ -20,10 +27,10 @@ export class FetchUe extends React.Component {
 }
 
     render(){
-        const {ue} = this.state;
+        const {ue, ressourceType, nom} = this.state;
         console.log(ue)
         return(
-            <UeList key={ue.id} data={ue}/> 
+            <RessourceList key={ue.id} data={ue} type={ressourceType[nom]}/> 
         )
     }
 }

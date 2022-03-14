@@ -1,9 +1,10 @@
+import FetchSae from "../component/FetchSae";
 
 
 function Sae() {
     return (
       <div className="App">
-          <h1>Sae page</h1>
+          <FetchSae/>
       </div>
     );
   }
