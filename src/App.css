@@ -40,16 +40,21 @@ div h2 {
     border-radius: 25px;
 }
 
+.list{
+    border: solid 1px ;
+    background-color: lightgrey;
+    border-radius: 10px;
+
+}
+
 .item {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5rem;
+    flex-direction: row;
+    margin: 5px;
     font-family: 'Questrial', sans-serif;
 }
 
 .item p {
-    margin: 2rem;
     margin-left: 20rem;
     margin-right: 20rem;
 }
