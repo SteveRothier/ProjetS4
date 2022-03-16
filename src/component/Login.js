@@ -60,7 +60,7 @@ function Login(){
   return (
     <>
       {success ? (
-        <Redirect to="/" />
+        <Redirect to="/index" />
       ) : (
         <section>
           <p

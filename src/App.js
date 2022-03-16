@@ -19,12 +19,12 @@ function App() {
         <div className='App'>
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Home}/>
+            <Route path="/" exact component={LoginPage}/>
             <Route path="/ressource" component={Ressource}/>
             <Route path="/sae" component={Sae}/>
             <Route path="/Ue" component={Ue}/>
             <Route path="/Mcc" component={Mcc}/>
-            <Route path="/login" component={LoginPage}/>
+            <Route path="/index" component={Home}/>
           </Switch>
         </div>
       </Router>

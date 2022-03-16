@@ -4,7 +4,6 @@ section {
     min-height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     padding: 1rem;
     background-color: #EEEDED;
@@ -60,4 +59,10 @@ button {
     font-weight: bold;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
 }
