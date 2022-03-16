@@ -4,20 +4,21 @@ import ValidationItem from './ValidationItem';
 export function ValidationList({data, ...props}) { 
     console.log(data); 
   return(
-    
-    <div className='list'>
-        <div className="validation">
-            <div>Semestre </div>
-            <div>UE1</div>
-            <div>UE2</div>
-            <div>UE3</div>
-            <div>UE4</div>
-            <div>UE5</div>
-            <div>UE6</div>
-        </div> 
+    <table>
+      <tr>
+        <td>Semestre</td>
+        <td>Moyenne</td>
+        <td>UE1</td>
+        <td>UE2</td>
+        <td>UE3</td>
+        <td>UE4</td>
+        <td>UE5</td>
+        <td>UE6</td>
+        <td>Validation</td>
+      </tr>      
     {data.map( (element, index)=>
         <ValidationItem key={index} data={element}/>)}
-    </div>
+    </table>
   )
 }
 export default ValidationList;

@@ -598,12 +598,12 @@
         {
             "id":2,
             "idSemestre":2,
-            "moyenne1":14,
-            "moyenne2":14,
-            "moyenne3":14,
+            "moyenne1":12,
+            "moyenne2":11,
+            "moyenne3":15,
             "moyenne4":14,
-            "moyenne5":14,
-            "moyenne6":14
+            "moyenne5":17.5,
+            "moyenne6":10
         }
     ]
 }

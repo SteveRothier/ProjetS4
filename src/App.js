@@ -7,7 +7,7 @@ import Navbar from './component/Navbar';
 import Ressource from './page/Ressource';
 import Sae from './page/Sae';
 import Ue from './page/Ue';
-import Mcc from './page/Mcc';
+import Validation from './page/Validation';
 import LoginPage from './page/LoginPage';
 
 import './App.css';
@@ -23,7 +23,7 @@ function App() {
             <Route path="/ressource" component={Ressource}/>
             <Route path="/sae" component={Sae}/>
             <Route path="/Ue" component={Ue}/>
-            <Route path="/Mcc" component={Mcc}/>
+            <Route path="/validation" component={Validation}/>
             <Route path="/index" component={Home}/>
           </Switch>
         </div>
