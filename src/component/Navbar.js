@@ -10,6 +10,7 @@ function Navbar() {
                 <li><a href="/sae">SAE</a></li>
                 <li><a href="/ue">UE</a></li>
                 <li><a href="/mcc">MCC</a></li>
+                <li><a href="/login">Login</a></li>
             </ul>
         </nav>
     );
