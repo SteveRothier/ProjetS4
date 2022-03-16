@@ -3,40 +3,10 @@ html {
     background-color: #27A6F4;
 }
 
-#calendrier_absences {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2rem;
-}
-
-#calendrier_absences td table {
-    border: solid 1px black;
-    margin: 1rem;
-}
-
 div h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.calendrier {
-    display: flex;
-    flex-direction: column;
-}
-
-.jour {
-    border: solid 1px black;
-}
-
-.calendrier h2 {
-    padding: 7px;
-    background-color: #346DFF;
-    margin-left: 3%;
-    margin-top: 4rem;
-    width: 11rem;
-    border-radius: 25px;
 }
 
 .list{
@@ -65,7 +35,7 @@ div h2 {
 }
 
 .information h2 {
-    margin-left: 27%;
+    margin-left: 30%;
     margin-top: 4rem;
     padding: 0.5rem;
     background-color: #346DFF;
@@ -75,7 +45,7 @@ div h2 {
 
 .ressource {
     margin: 1rem;
-    background-color: grey;
+    background-color: black;
 }
 
 .h2Btn {
