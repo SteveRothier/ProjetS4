@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 
 import './style/login.css';
 import axios from "../axios";
+import { Redirect } from "react-router-dom";
 const LOGIN_URL = "/etudiant";
 
 
@@ -59,9 +60,7 @@ function Login(){
   return (
     <>
       {success ? (
-        <section>
-          <h1>Connecter</h1>
-        </section>
+        <Redirect to="/" />
       ) : (
         <section>
           <p
