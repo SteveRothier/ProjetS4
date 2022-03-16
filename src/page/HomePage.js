@@ -1,5 +1,7 @@
+import BoutonSemestre from "../component/BoutonSemestre";
 import Calendrier from "../component/Calendrier";
 import FetchEtudiant from "../component/FetchEtudiant";
+import FetchNote from "../component/FetchNote";
 
 function Home() {
     return (
@@ -71,29 +73,8 @@ function Home() {
             <FetchEtudiant />
           </div>
       </div>
-      <div className="h2Btn">
-        <h2>Semestres</h2>
-        </div>
-      <div className="ligneBtnSem">
-        <div className="btnSem">
-            <p>S1</p>
-            </div>
-          <div className="btnSem">
-            <p>S2</p>
-            </div>
-          <div className="btnSem">
-            <p>S3</p>
-            </div>
-          <div className="btnSem">
-            <p>S4</p>
-            </div>
-          <div className="btnSem">
-            <p>S5</p>
-            </div>
-          <div className="btnSem">
-            <p>S6</p>
-            </div>
-      </div>
+        <BoutonSemestre />
+        <FetchNote />
       </>
     );
   }
