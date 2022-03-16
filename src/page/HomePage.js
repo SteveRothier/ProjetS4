@@ -71,7 +71,9 @@ function Home() {
             <FetchEtudiant />
           </div>
       </div>
-      <h2 className="h2Btn">Semestres</h2>
+      <div className="h2Btn">
+        <h2>Semestres</h2>
+        </div>
       <div className="ligneBtnSem">
         <div className="btnSem">
             <p>S1</p>
