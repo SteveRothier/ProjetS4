@@ -1,3 +1,4 @@
+import Calendrier from "../component/Calendrier";
 import FetchEtudiant from "../component/FetchEtudiant";
 
 function Home() {
