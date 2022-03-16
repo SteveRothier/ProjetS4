@@ -583,5 +583,27 @@
             "noteExam": 15,
             "dateExam": "23/09/2021"
         }
+    ],
+    "validation": [
+        {
+            "id":1,
+            "idSemestre":1,
+            "moyenne1":14,
+            "moyenne2":14,
+            "moyenne3":14,
+            "moyenne4":14,
+            "moyenne5":14,
+            "moyenne6":14
+        },
+        {
+            "id":2,
+            "idSemestre":2,
+            "moyenne1":14,
+            "moyenne2":14,
+            "moyenne3":14,
+            "moyenne4":14,
+            "moyenne5":14,
+            "moyenne6":14
+        }
     ]
 }
