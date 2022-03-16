@@ -3,7 +3,7 @@ import FetchRessource from "../component/FetchRessource";
 
 function Ressource() {
     return (
-      <div className="App">
+      <div className="ressource">
           <FetchRessource/>
       </div>
     );

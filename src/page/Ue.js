@@ -2,7 +2,7 @@ import FetchUe from "../component/FetchUe";
 
 function Ue() {
   return (
-    <div className="infoUe">
+    <div className="ressource">
         <FetchUe></FetchUe>
     </div>
   );

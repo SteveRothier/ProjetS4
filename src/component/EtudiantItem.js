@@ -27,8 +27,6 @@ export function EtudiantItem({data}) {
                     <h1>Login : {login}</h1>
                     <h1>Mot de passe : {password}</h1>
                     <h1>place : {place}</h1>
-                </div>
-                <div className='informations'>
                     <h1>Né le : {dateDeNaissance}</h1>
                     <h1>{civilite}</h1>
                     <h1>Mail : {email}</h1>

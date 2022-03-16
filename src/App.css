@@ -3,23 +3,22 @@ html {
     background-color: #27A6F4;
 }
 
-div h2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
 #calendrier_absences {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: transparent;
     margin: 2rem;
 }
 
 #calendrier_absences td table {
     border: solid 1px black;
     margin: 1rem;
+}
+
+div h2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .calendrier {
@@ -35,8 +34,8 @@ div h2 {
     padding: 7px;
     background-color: #346DFF;
     margin-left: 3%;
-    margin-top: 2%;
-    width: 160px;
+    margin-top: 4rem;
+    width: 11rem;
     border-radius: 25px;
 }
 
@@ -66,10 +65,34 @@ div h2 {
 }
 
 .information h2 {
-    margin-left: 13%;
+    margin-left: 27%;
     margin-top: 4rem;
     padding: 0.5rem;
     background-color: #346DFF;
-    width: 160px;
+    width: 11rem;
     border-radius: 25px;
+}
+
+.ressource {
+    margin: 1rem;
+    background-color: grey;
+}
+
+.h2Btn {
+    margin-left: 3%;
+}
+
+.ligneBtnSem {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnSem {
+    margin: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #346DFF;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
 }

@@ -3,6 +3,7 @@ import FetchEtudiant from "../component/FetchEtudiant";
 function Home() {
     return (
       <>
+      <div className="homePage">
         <div className="calendrier">
             <h2>
               Calendrier
@@ -61,14 +62,35 @@ function Home() {
             </td></tr><tr><td className="num_semaine">35</td><td className="jour">29</td><td className="jour">30</td><td className="jour">31</td></tr></tbody></table></div>
             </td></tr></tbody></table>
         </div>
-        <div className="homePage">
+        
           <div className="information">
             <h2>
               Informations
             </h2>
             <FetchEtudiant />
           </div>
-        </div>
+      </div>
+      <h2 className="h2Btn">Semestres</h2>
+      <div className="ligneBtnSem">
+        <div className="btnSem">
+            <p>S1</p>
+            </div>
+          <div className="btnSem">
+            <p>S2</p>
+            </div>
+          <div className="btnSem">
+            <p>S3</p>
+            </div>
+          <div className="btnSem">
+            <p>S4</p>
+            </div>
+          <div className="btnSem">
+            <p>S5</p>
+            </div>
+          <div className="btnSem">
+            <p>S6</p>
+            </div>
+      </div>
       </>
     );
   }
