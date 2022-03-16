@@ -24,7 +24,6 @@ function App() {
             <Route path="/sae" component={Sae}/>
             <Route path="/Ue" component={Ue}/>
             <Route path="/Mcc" component={Mcc}/>
-            <Route path="/Login" component={LoginPage}/>
           </Switch>
         </div>
       </Router>
