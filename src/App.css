@@ -15,11 +15,10 @@ div h2 {
     align-items: center;
 }
 
-.list{
-    border: solid 1px ;
+.list {
+    border: solid 1px;
     background-color: lightgrey;
     border-radius: 10px;
-
 }
 
 .item {

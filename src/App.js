@@ -8,6 +8,7 @@ import Ressource from './page/Ressource';
 import Sae from './page/Sae';
 import Ue from './page/Ue';
 import Mcc from './page/Mcc';
+import LoginPage from './page/LoginPage';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/sae" component={Sae}/>
             <Route path="/Ue" component={Ue}/>
             <Route path="/Mcc" component={Mcc}/>
+            <Route path="/Login" component={LoginPage}/>
           </Switch>
         </div>
       </Router>
