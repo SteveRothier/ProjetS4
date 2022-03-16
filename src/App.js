@@ -17,7 +17,7 @@ function App() {
     <>
       <Router>
         <div className='App'>
-          <Navbar />
+          
           <Switch>
             <Route path="/" exact component={LoginPage}/>
             <Route path="/ressource" component={Ressource}/>

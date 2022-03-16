@@ -1,3 +1,4 @@
+import Navbar from '../component/Navbar.js';
 import BoutonSemestre from "../component/BoutonSemestre";
 import Calendrier from "../component/Calendrier";
 import FetchEtudiant from "../component/FetchEtudiant";
@@ -6,6 +7,7 @@ import FetchNote from "../component/FetchNote";
 function Home() {
     return (
       <>
+      <Navbar />
       <div className="homePage">
           <Calendrier/>
           <div className="information">
