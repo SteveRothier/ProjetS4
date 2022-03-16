@@ -1,0 +1,30 @@
+#calendrier_absences {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin: 2rem;
+}
+
+#calendrier_absences td table {
+    border: solid 1px black;
+    margin: 1rem;
+}
+
+.calendrier {
+    display: flex;
+    flex-direction: column;
+}
+
+.jour {
+    border: solid 1px black;
+}
+
+.calendrier h2 {
+    padding: 7px;
+    background-color: #346DFF;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 160px;
+    border-radius: 25px;
+}
