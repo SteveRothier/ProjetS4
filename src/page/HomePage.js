@@ -47,7 +47,7 @@ function Home() {
             </td></tr><tr><td class="num_semaine">23</td><td class="jour">6</td><td class="jour">7</td><td class="jour">8</td><td class="jour">9</td><td class="jour">10</td><td class="jour">11</td><td class="jour">12
             </td></tr><tr><td class="num_semaine">24</td><td class="jour">13</td><td class="jour">14</td><td class="jour">15</td><td class="jour">16</td><td class="jour">17</td><td class="jour">18</td><td class="jour">19
             </td></tr><tr><td class="num_semaine">25</td><td class="jour">20</td><td class="jour">21</td><td class="jour">22</td><td class="jour">23</td><td class="jour">24</td><td class="jour">25</td><td class="jour">26
-            </td></tr><tr><td class="num_semaine">26</td><td class="jour">27</td><td class="jour">28</td><td class="jour">29</td><td class="jour">30</td></tr></tbody></table></div>
+            </td></tr><tr><td class="num_semaine">26</td><td class="jour">27</td><td class="jour">28</td><td class="jour">29</td><td class="">30</td></tr></tbody></table></div>
                 </td><td><div class="calendrier"><table><tbody><tr><td></td><th colspan="8">juillet 2022
             </th></tr><tr><td></td><th>L</th><th>M</th><th>M</th><th>J</th><th>V</th><th>S</th><th>D</th></tr><tr><td class="num_semaine">26</td><td></td><td></td><td></td><td></td><td class="jour">1</td><td class="jour">2</td><td class="jour">3
             </td></tr><tr><td class="num_semaine">27</td><td class="jour">4</td><td class="jour">5</td><td class="jour">6</td><td class="jour">7</td><td class="jour">8</td><td class="jour">9</td><td class="jour">10
