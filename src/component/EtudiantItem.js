@@ -3,6 +3,7 @@ import './style/etudiant.css';
 
 export function EtudiantItem({data}) {
     const {
+        id,
         prenom,
         nom,
         login,
@@ -21,17 +22,16 @@ export function EtudiantItem({data}) {
             <div className='profil'>
                 <div className='card'>
                     <img src={photo} alt="jaquette"/> 
-                    <h1>{prenom} {nom}</h1>
-                    <h1>{place}</h1>    
-                    <h1>{login}</h1>
-                    <h1>{password}</h1>
-                </div>
-                <div className='informations'>
-                    <h1>{dateDeNaissance}</h1>
+                    <h1>idPers: {id}</h1>
+                    <h1>{prenom} {nom}</h1>    
+                    <h1>Login : {login}</h1>
+                    <h1>Mot de passe : {password}</h1>
+                    <h1>place : {place}</h1>
+                    <h1>Né le : {dateDeNaissance}</h1>
                     <h1>{civilite}</h1>
-                    <h1>{email}</h1>
-                    <h1>{numTel}</h1>
-                    <h1>{adresse}</h1>
+                    <h1>Mail : {email}</h1>
+                    <h1>Téléphone : {numTel}</h1>
+                    <h1>Adresse : {adresse}</h1>
                 </div>
             </div>
         </>

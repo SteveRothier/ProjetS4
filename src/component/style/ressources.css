@@ -1,0 +1,29 @@
+.list{
+    border: solid 1px ;
+    background-color: rgb(187, 182, 182);
+    border-radius: 25px;
+    margin: 3rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Questrial', sans-serif;
+}
+
+.noteItem {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Questrial', sans-serif;
+}
+
+.item p {
+    margin-left: 3rem;
+    margin-right: 20rem;
+}

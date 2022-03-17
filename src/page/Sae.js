@@ -1,10 +1,16 @@
+import FetchSae from "../component/FetchSae";
+import Navbar from '../component/Navbar.js';
+import './style/Sae.css';
 
 
 function Sae() {
     return (
-      <div className="App">
-          <h1>Sae page</h1>
+      <>
+      <Navbar />
+      <div className="ressource">
+          <FetchSae/>
       </div>
+      </>
     );
   }
   

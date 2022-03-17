@@ -1,10 +1,15 @@
-
+import FetchRessource from "../component/FetchRessource";
+import Navbar from '../component/Navbar.js';
+import './style/Ressource.css';
 
 function Ressource() {
     return (
-      <div className="App">
-          <h1>Ressource page</h1>
+      <>
+      <Navbar />
+      <div className="ressource">
+          <FetchRessource/>
       </div>
+      </>
     );
   }
   

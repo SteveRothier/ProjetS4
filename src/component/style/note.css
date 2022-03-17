@@ -1,0 +1,18 @@
+.noteTable tr b{
+    font-size: medium;
+}
+
+.ressouceLibelle {
+    font-size: small;
+}
+
+.noteTable
+{
+    border: 2px solid black;
+}
+
+.noteTable tr {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+}

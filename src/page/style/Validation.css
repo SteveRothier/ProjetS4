@@ -1,0 +1,34 @@
+table, td {
+    border: 1px solid;
+  }
+
+table 
+{
+    background-color: aliceblue;
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 10px;;
+}
+
+td
+{
+    padding: 10px;
+}
+.libelle
+{
+    font-weight: bold;
+}
+
+.true
+{
+    background-color: rgb(92, 240, 92);
+}
+
+.false
+{
+    background-color: rgb(214, 36, 36);
+}
+.validTable {
+    margin: 0 auto;
+    width: 500px; 
+}

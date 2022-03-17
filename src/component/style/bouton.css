@@ -1,0 +1,19 @@
+.h2Btn {
+    margin-left: 3%;
+}
+
+.ligneBtnSem {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnSem {
+    margin: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #346DFF;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    height: 3rem;
+}
