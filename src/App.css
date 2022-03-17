@@ -3,12 +3,6 @@ html {
     background-color: #27A6F4;
 }
 
-.homePage {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 div h2 {
     display: flex;
     justify-content: space-around;
@@ -43,16 +37,6 @@ div h2 {
 .item p {
     margin-left: 3rem;
     margin-right: 20rem;
-}
-
-
-.information h2 {
-    margin-left: 30%;
-    margin-top: 4rem;
-    padding: 0.5rem;
-    background-color: #346DFF;
-    width: 11rem;
-    border-radius: 25px;
 }
 
 .h2Btn {

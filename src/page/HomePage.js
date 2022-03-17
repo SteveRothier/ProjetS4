@@ -8,17 +8,17 @@ import './style/HomePage.css';
 function Home() {
     return (
       <>
-      <Navbar />
-      <div className="homePage">
-          <Calendrier/>
+        <Navbar />
+        <Calendrier/>
+        <div className='colonne'>
           <div className="information">
             <h2>
               Informations
             </h2>
             <FetchEtudiant />
           </div>
-      </div>
-        <BoutonSemestre />
+          <BoutonSemestre />
+          </div>
         <FetchNote />
       </>
     );
