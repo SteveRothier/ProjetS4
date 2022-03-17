@@ -598,6 +598,16 @@
         {
             "id":2,
             "idSemestre":2,
+            "moyenne1":1,
+            "moyenne2":10,
+            "moyenne3":5,
+            "moyenne4":4.25,
+            "moyenne5":11,
+            "moyenne6":0
+        },
+        {
+            "id":3,
+            "idSemestre":3,
             "moyenne1":12,
             "moyenne2":11,
             "moyenne3":15,

@@ -3,8 +3,8 @@ export function ValidationItem({data}) {
     console.log(data);
     const {idSemestre,moyenne1,moyenne2,moyenne3,moyenne4, moyenne5, moyenne6} = data;
     let validation= "false";
-    let moyenneGen= (moyenne1 + moyenne2 + moyenne3 + moyenne4 + moyenne5 + moyenne6)/6;
-    if (moyenneGen =>10){
+    let moyenneGen= Math.round(((moyenne1 + moyenne2 + moyenne3 + moyenne4 + moyenne5 + moyenne6)/6)*100)/100;
+    if (moyenneGen >= 10){
         validation="true";
     }
     return(
@@ -18,7 +18,7 @@ export function ValidationItem({data}) {
             <td>{moyenne4}</td>
             <td>{moyenne5}</td>
             <td>{moyenne6}</td>
-            <td>{validation}</td>
+            <td className={validation}></td>
         </tr>   
         </>
     );

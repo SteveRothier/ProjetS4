@@ -4,8 +4,8 @@ import ValidationItem from './ValidationItem';
 export function ValidationList({data, ...props}) { 
     console.log(data); 
   return(
-    <table>
-      <tr>
+    <table className='validTable'>
+      <tr className='libelle'>
         <td>Semestre</td>
         <td>Moyenne</td>
         <td>UE1</td>
